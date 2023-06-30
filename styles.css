@@ -1,0 +1,12 @@
+.two {
+    background-color: peachpuff;
+    flex: 2 1 0%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+}
+img {
+    flex: 1 1 0%;
+}
