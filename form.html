@@ -29,15 +29,15 @@
     
   <div>
     <label for="first_name">FIRST NAME:</label>
-    <input type="text" id="first_name">
+    <input type="text" id="first_name" form="form1">
   </div>
 
 <div><label for="user_email">EMAIL:</label>
-    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+    <input type="email" id="user_email" name="email" placeholder="you@example.com" form="form1">
 </div>
 
 <div><label for="user_password">PASSWORD:</label>
-<input type="password" id="user_password" name="password"></div>
+<input type="password" id="user_password" name="password" form="form1"></div>
 
 
 
@@ -48,16 +48,16 @@
     flex-direction: column;
 "> 
     <div><label for="last_name">LAST NAME:</label>
-    <input type="text" name="last_name" id="last_name"></div>
+    <input type="text" name="last_name" id="last_name" form="form1"></div>
 
     <div><label for="phone_number">PHONE NUMBER:</label>
-  <input type="tel" id="phone_number" name="phone_number"></div>
+  <input type="tel" id="phone_number" name="phone_number" form="form1"></div>
 
   <div><label for="user_password">CONFIRM PASSWORD:</label>
-<input type="password" id="user_password" name="password"></div>
+<input type="password" id="user_password" name="password" form="form1"></div>
 </div></div></div>
         <div class="right-bot">
-            <form>
+            <form id="form1">
                 <button type="submit">Create Account</button>
             </form>
         </div>
