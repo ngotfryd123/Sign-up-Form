@@ -45,5 +45,6 @@ label {
   }
 
   input:focus {
-    border-color: rgb(19, 15, 221);
+    border-color: lightblue;
+    outline:none;
 }
