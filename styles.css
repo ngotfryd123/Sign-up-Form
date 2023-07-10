@@ -35,3 +35,15 @@ label {
     flex-direction: column;
     gap: 20px;
 }
+@font-face {
+    font-family: Norse;
+    src: url(/home/nick/Downloads/Norse-Bold.otf);
+  }
+
+  input:invalid {
+    border-color: red;
+  }
+
+  input:focus {
+    border-color: rgb(19, 15, 221);
+}
