@@ -44,7 +44,16 @@ label {
     border-color: red;
   }
 
-  input:focus {
-    border-color: lightblue;
-    outline:none;
+.error {
+    border-color: red;
+    outline: none;
+  }
+
+.error::before {
+    color:red;
+    content: "*Passwords do not match";
 }
+  .valid {
+    border-color: green;
+    outline: none;
+  }

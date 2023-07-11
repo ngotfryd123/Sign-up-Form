@@ -79,30 +79,38 @@
     gap: 50px;
 "><div style="
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     flex-direction: column;
+    padding-top: -10;
 ">
     
   <div style="
 ">
     <label for="first_name" style="display: block;">FIRST NAME:</label>
-    <input type="text" id="first_name" form="form1">
+    <input type="text" id="first_name" form="form1" style="
+    margin-bottom: 10px;
+">
   </div>
 
 <div style="
 "><label for="user_email" style="
     display: block;
 ">EMAIL:</label>
-    <input type="email" id="user_email" name="email" placeholder="you@example.com" form="form1">
+    <input type="email" id="user_email" name="email" placeholder="you@example.com" form="form1" style="
+    margin-bottom: 10px;
+">
 </div>
 
 <div style="
 "><label for="user_password" style="
     display: block;
 ">PASSWORD:</label>
-<input type="password" id="user_password" name="password" form="form1"></div>
+<input type="password" id="psw1" name="psw1" form="form1" class="valid"></div>
 
-
+<p id="message" class="valid" style="
+    margin-top: 0px;
+    margin-bottom: 0px;
+"></p>
 
 </div>
 <div style="
@@ -121,7 +129,7 @@
   <input type="tel" id="phone_number" name="phone_number" form="form1"></div>
 
   <div><label for="user_password" style="display: block;">CONFIRM PASSWORD:</label>
-<input type="password" id="user_password" name="password" form="form1"></div>
+<input type="password" id="psw2" name="psw2" form="form1" class="valid"></div>
 </div></div></div>
         <div class="right-bot">
             <form id="form1">
@@ -143,6 +151,8 @@
         </div>
     </div>
     
+    <script src="script.js"></script>
+
 
 
 </body>
