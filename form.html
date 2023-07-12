@@ -6,154 +6,85 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-<body><div style="
-    display: flex;
-    background: url(/home/nick/Downloads/maryna-yazbeck-bT2XiJtcQ1M-unsplash.jpg);
-    width: 370px;
-    background-position: center;
-    flex-direction: column;
-    flex: 1.2 1 0%;
-"><div style="
-    width: auto;
-    height: 100px;
-    flex: 2;
-    display: flex;
-    align-items: flex-end;
-"><div style="
-    height: 150px;
-    width: auto;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(2, 2, 2, 0.5);
-"><img src="/home/nick/Downloads/11.png" style="
-    width: 220px;
-    margin-left: -100px;
-    flex: 0;
-">
-<div style="
-    color: white;
-    font-size: 100px;
-    margin-left: -30px;
-    font-family: Norse;
-">Odin</div></div></div>
-    <div style="
-    height: 100px;
-    width: auto;
-    flex: 1.5;
-"></div>
-    <div style="
-    width: auto;
-    height: 100px;
-    flex: 2;
-    display: flex;
-    color: white;
-    align-items: flex-end;
-    justify-content: center;
-    padding-bottom: 20px;
-">Photo by <a href="https://unsplash.com/@yazbeckistan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="color: white;"> Maryna Yazbeck </a>  on  <a href="https://unsplash.com/wallpapers/nature/ocean?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="color: white;"> Unsplash </a>
-  </div>
-    </div>
-    <div class="two">
-        <div class="right-top" style=""><div style="
-    font-size: larger;
-    font-weight: bolder;
-">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-<p>You know you want to.</p></div>
-        </div>
-        <div class="right-mid" style="
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    justify-content: center;
-"><div style="
-    font-size: larger;
-    font-weight: bolder;
-">Let's do this!</div><div style="
-    display: flex;
-    gap: 50px;
-"><div style="
-    display: flex;
-    /* gap: 10px; */
-    flex-direction: column;
-    padding-top: -10;
-">
+<body>
     
-  <div style="
-">
-    <label for="first_name" style="display: block;">FIRST NAME:</label>
-    <input type="text" id="first_name" form="form1" style="
-    margin-bottom: 10px;
-">
-  </div>
+    <div id="back-img">
+        <div id="logo-container">
+        
+            <div id="black-container">
+                <img src="/home/nick/Downloads/11.png">
+                <div id="logo-txt">Odin</div>
+            </div>
+        </div>
+        <div id="left-mid"></div>
+        <div id="left-bot">
+            Photo by <a href="https://unsplash.com/@yazbeckistan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="color: white;"> Maryna Yazbeck </a>  on  <a href="https://unsplash.com/wallpapers/nature/ocean?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" style="color: white;"> Unsplash </a>
+        </div>
+    </div>
 
-<div style="
-"><label for="user_email" style="
-    display: block;
-">EMAIL:</label>
-    <input type="email" id="user_email" name="email" placeholder="you@example.com" form="form1" style="
-    margin-bottom: 10px;
-">
-</div>
+    <div class="two">
+        <div class="right-top">
+            <div id="sign-up-txt">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                <p>You know you want to.</p>
+            </div>
+        </div>
 
-<div style="
-"><label for="user_password" style="
-    display: block;
-">PASSWORD:</label>
-<input type="password" id="psw1" name="psw1" form="form1" class="valid"></div>
+        <div class="right-mid">
+            <div id="sign-up-txt">Let's do this!</div>
+                <div id="input-field">
+                    <div id="left-input">
+    
+                        <div>
+                            <label for="first_name" style="display: block;">FIRST NAME:</label>
+                            <input type="text" id="first_name" form="form1" style="margin-bottom: 10px;">
+                        </div>
 
-<p id="message" class="valid" style="
-    margin-top: 3px;
-    margin-bottom: 0px;
-"></p>
+                        <div>
+                            <label for="user_email" style="display: block;">EMAIL:</label>
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com" form="form1" style="margin-bottom: 10px;">
+                        </div>
 
-</div>
-<div style="
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-"> 
-    <div><label for="last_name" style="
-    display: block;
-">LAST NAME:</label>
-    <input type="text" name="last_name" id="last_name" form="form1"></div>
+                        <div>
+                            <label for="user_password" style="display: block;">PASSWORD:</label>
+                            <input type="password" id="psw1" name="psw1" form="form1" class="valid">
+                        </div>
 
-    <div><label for="phone_number" style="
-    display: block;
-">PHONE NUMBER:</label>
-  <input type="tel" id="phone_number" name="phone_number" form="form1"></div>
+                        <p id="message"></p>
 
-  <div><label for="user_password" style="display: block;">CONFIRM PASSWORD:</label>
-<input type="password" id="psw2" name="psw2" form="form1" class="valid"></div>
-</div></div></div>
+                    </div>
+
+                    <div id="right-input"> 
+                        <div>
+                            <label for="last_name" style="display: block;">LAST NAME:</label>
+                            <input type="text" name="last_name" id="last_name" form="form1">
+                        </div>
+
+                        <div>
+                            <label for="phone_number" style="display: block;">PHONE NUMBER:</label>
+                            <input type="tel" id="phone_number" name="phone_number" form="form1">
+                        </div>
+
+                        <div>
+                            <label for="user_password" style="display: block;">CONFIRM PASSWORD:</label>
+                            <input type="password" id="psw2" name="psw2" form="form1" class="valid">
+                        </div>
+                    </div>
+                </div>
+        </div>
+
         <div class="right-bot">
             <form id="form1">
-                <div><button type="submit" style="
-    width: 150px;
-    height: 35px;
-    border-radius: 10px;
-    background-color: cadetblue;
-    color: white;
-    font-weight: bolder;
-    border-width: 0px;
-">Create Account</button></div>
+                <div>
+                    <button type="submit">Create Account</button>
+                </div>
             </form>
-            <div>Already have an account?<a href="url" style="
-    text-decoration: none;
-    color: #03A9F4;
-"> Log in</a>
-</div>
+            <div>
+                Already have an account?<a href="url" style="text-decoration: none; color: #03A9F4;"> Log in</a>
+            </div>
         </div>
     </div>
     
     <script src="script.js"></script>
-
-
 
 </body>
 </html>
